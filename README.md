@@ -8,22 +8,22 @@ Welcome to **TableRally**, a real-time multiplayer gaming platform featuring a m
 
 ### Core Modules Implemented
 1. **Backend Framework (Django)**  
-   - Developed using Django to handle backend logic, routing, JWT, and data management.
-2. **Database Integration (PostgreSQL)**  
+   - As the backend developer, I utilized Django to architect and implement the core logic, manage routing, handle data processing, and ensure smooth communication between the frontend and backend systems. I leveraged Django's powerful ORM for database interactions, ensuring efficient data management and integrity.
+2. **Two-Factor Authentication (2FA) with JWT**  
+   - To enhance the security of the application, I integrated Two-Factor Authentication (2FA) in conjunction with JWT-based token authentication. This combination ensures that users must provide both their regular credentials and a time-sensitive verification code, adding a significant extra layer of protection against unauthorized access.
+3. **Remote Authentication with OAuth 2.0 and JWT**  
+   - I implemented secure remote authentication by leveraging OAuth 2.0 for authorization and JWT for token-based authentication. This approach allowed users to securely log in and access resources without exposing their credentials. OAuth 2.0 handled the delegation of access, while I used JWTs to securely transmit and validate user sessions across systems, providing a scalable and efficient solution for managing authentication and authorization.
+4. **Database Integration (PostgreSQL)**  
    - Leveraged PostgreSQL for robust and scalable data storage.
-3. **Standard User Management**  
+5. **Standard User Management**  
    - Secure registration and authentication system.  
    - User profiles with game history and stats.
-4. **Remote Authentication**  
-   - Implemented OAuth 2.0 for secure login and user authentication.
-5. **Real-Time Multiplayer (Remote Players)**  
+6. **Real-Time Multiplayer (Remote Players)**  
    - Enabled remote players to compete in Pong games with minimal latency.
-6. **Additional Game: Tic-Tac-Toe**  
+7. **Additional Game: Tic-Tac-Toe**  
    - Introduced a second game with matchmaking and gameplay history.
-7. **Live Chat**  
-   - One of my primary contributions to this project was building the **Live Chat System** using WebSockets for real-time communication, send direct messages, block other users, delete messages, and invite players to games.
-8. **Two-Factor Authentication (2FA) with JWT**  
-   - Added an extra layer of security with 2FA and JWT for token-based authentication.
+8. **Live Chat**  
+   - Developed using WebSockets for real-time communication, as purpose to send direct messages, block other users, delete messages, and invite players to games.
 
 ---
 
